@@ -386,6 +386,7 @@ h1.title {
   background-color: #0092C4;
 }
 
+ul#social-links li  a.blog {  background-image: url("../images/icons/blog.png") }
 ul#social-links li  a.facebook {  background-image: url("../images/icons/facebook.png") }
 ul#social-links li  a.twitter {  background-image: url("../images/icons/twitter.png") }
 ul#social-links li  a.google {  background-image: url("../images/icons/google.png") }

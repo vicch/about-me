@@ -3,6 +3,11 @@
     					"sicon" => "social.png",
 						"type" => "heading");
 
+    $options[] = array( "name" => "Blog URL",
+                        "id" => $shortname."_blog",
+                        "std" => "",
+                        "type" => "text");
+
     $options[] = array( "name" => "Twitter URL",
                         "id" => $shortname."_twitter",
                         "std" => "",
@@ -18,10 +23,10 @@
                         "std" => "",
                         "type" => "text");
 
-    // $options[] = array( "name" => "Dribble URL",
-    //                     "id" => $shortname."_dribble",
-    //                     "std" => "",
-    //                     "type" => "text");
+    $options[] = array( "name" => "Dribble URL",
+                        "id" => $shortname."_dribble",
+                        "std" => "",
+                        "type" => "text");
 
     $options[] = array( "name" => "Github URL",
                         "id" => $shortname."_github",
