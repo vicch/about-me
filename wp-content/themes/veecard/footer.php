@@ -18,8 +18,11 @@
                             <?php if(of_get_option('veecard_googleplus')!=''): ?>
                             <li class="google-link"><a href="<?php echo of_get_option('veecard_googleplus') ?>" id="social-03" title="<?php _e( 'Google+', 'site5framework' ); ?>" class="google">Google</a></li>
                             <?php endif ?>
-                            <?php if(of_get_option('veecard_dribble')!=''): ?>
-                            <li class="dribbble-link"><a href="<?php echo of_get_option('veecard_dribble') ?>" id="social-04" title="<?php _e( 'Dribble', 'site5framework' ); ?>" class="dribbble">Dribble</a></li>
+                            <?php // if(of_get_option('veecard_dribble')!=''): ?>
+                            <!-- <li class="dribbble-link"><a href="<?php echo of_get_option('veecard_dribble') ?>" id="social-04" title="<?php _e( 'Dribble', 'site5framework' ); ?>" class="dribbble">Dribble</a></li> -->
+                            <?php // endif ?>
+                            <?php if(of_get_option('veecard_github')!=''): ?>
+                            <li class="github-link"><a href="<?php echo of_get_option('veecard_github') ?>" id="social-04" title="<?php _e( 'GitHub', 'site5framework' ); ?>" class="github">Dribble</a></li>
                             <?php endif ?>
                             <?php if(of_get_option('veecard_vimeo')!=''): ?>
                             <li class="vimeo-link"><a href="<?php echo of_get_option('veecard_vimeo') ?>" id="social-05" title="<?php _e( 'Vimeo', 'site5framework' ); ?>" class="vimeo">Vimeo</a></li>

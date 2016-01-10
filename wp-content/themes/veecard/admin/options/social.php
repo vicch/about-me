@@ -18,8 +18,13 @@
                         "std" => "",
                         "type" => "text");
 
-    $options[] = array( "name" => "Dribble URL",
-                        "id" => $shortname."_dribble",
+    // $options[] = array( "name" => "Dribble URL",
+    //                     "id" => $shortname."_dribble",
+    //                     "std" => "",
+    //                     "type" => "text");
+
+    $options[] = array( "name" => "Github URL",
+                        "id" => $shortname."_github",
                         "std" => "",
                         "type" => "text");
 
