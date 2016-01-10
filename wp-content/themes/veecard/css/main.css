@@ -1182,7 +1182,7 @@ margin: 0 auto;
 
     #page {
         width: 960px;
-        margin: 0 auto;
+        margin: 50px auto 0;
     }
     #top-menu  {
       display: block ;
