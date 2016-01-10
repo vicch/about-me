@@ -30,11 +30,11 @@
                             <?php if(of_get_option('veecard_vimeo')!=''): ?>
                             <li class="vimeo-link"><a href="<?php echo of_get_option('veecard_vimeo') ?>" id="social-05" title="<?php _e( 'Vimeo', 'site5framework' ); ?>" class="vimeo">Vimeo</a></li>
                             <?php endif ?>
-                            <?php if(of_get_option('veecard_skype')!=''): ?>
-                            <li class="skype-link"><a href="<?php echo of_get_option('veecard_skype') ?>" id="social-06" title="<?php _e( 'Skype', 'site5framework' ); ?>" class="skype">Skype</a></li>
-                            <?php endif ?>
                             <?php if(of_get_option('veecard_linkedin')!=''): ?>
                             <li class="linkedin-link"><a href="<?php echo of_get_option('veecard_linkedin') ?>" target="_blank" id="social-07" title="<?php _e( ' LinkedIn', 'site5framework' ); ?>" class="linkedin">LinkedIn</a></li>
+                            <?php endif ?>
+                            <?php if(of_get_option('veecard_skype')!=''): ?>
+                            <li class="skype-link"><a href="<?php echo of_get_option('veecard_skype') ?>" id="social-06" title="<?php _e( 'Skype', 'site5framework' ); ?>" class="skype">Skype</a></li>
                             <?php endif ?>
                             <?php if(of_get_option('veecard_pinterest')!=''): ?>
                             <li class="pinterest-link"><a href="<?php echo of_get_option('veecard_pinterest') ?>" id="social-09" title="<?php _e( 'Pinterest', 'site5framework' ); ?>" class="pinterest">Pinterest</a></li>
